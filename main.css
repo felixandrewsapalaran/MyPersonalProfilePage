@@ -1,0 +1,303 @@
+/***************
+General
+***************/
+
+body {
+  
+  font-family: 'Cormorant Garamond', serif;
+  
+  
+}
+
+#wrapper { /*We are targetting id wrapper for to create some design*/
+  
+  max-width:940px; /* We want the width to be no longer than 940 pixels across. Using max-width instead, in this situation, will improve the browser's handling of small windows. This is important when making a site usable on small devices.*/
+  margin: 0 auto; /*0 is the value from top & bottom. Auto fill in any avaible space from left to right. Margin properties are used to generate space around elements. The margin properties set the size of the white space outisde the border. You test this by changing the color later if you want.*/
+  padding: 0 5%; /*0 represents the padding from top & bottom. 5% represet the padding from left to right. The padding properties are used to generate space around the content. The padding clears an area around the content (inside the the border) of an elemement.*/
+
+  
+  
+}
+
+
+/** My Logo Located at my Heading **/
+
+
+
+
+
+
+
+
+
+
+a {
+
+  text-decoration:none; /*The text-decoration CSS property is used to set the text formatting to underline, overline, line-through or blink. Underline and overline decorations are positioned under the text, line-through over it. In other words it removes underline on out link.*/
+    
+}
+
+img { /*This will fix the space between the images.*/
+
+  max-width:100%; /*The maximum width of our image is 100% each.*/
+  
+}
+
+
+
+ 
+
+
+
+/*************
+Heading
+**************/
+
+
+
+
+/****************************
+Please note: Margin is used to measure how far/close you want to border. Border is used to measure how far/close you want to padding. Padding is used to measure how far/close you want to the content. Pease note 47 for more info.
+******************************/
+
+header {
+
+  float: left; /*By giving the value left or right, the content will move depending on their direction.*/
+  margin: 0 0 30px 0;/*Top margin= 0, Right margin= 0, Bottom margin= 30px, Left margin= 0*/
+  padding: 5px 0 0 0;
+  width: 100%; /*The width property sets the width of an element. The width property does not include padding, borders, or margins; it sets the  width of the area inside the padding, border, and margin of the element. Remember min-width and max-width properties override width.*/
+
+  
+}
+
+#logo { /*Here we are targetting the id named logo for design*/
+
+  text-align:center;/*When the screen size reduce to 660px the text above will move to the center.*/
+  margin: 0;
+  align-content: flex-start; /*Lines are packed towards of the flex container.*/
+  text-shadow: 5px 5px 5px grey;
+  font-size: large;
+   
+
+}
+
+
+h1 {
+
+font-family: 'Cormorant Garamond', serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8; /* specify the space between lines*/
+
+  
+}
+
+
+h2 {
+
+  font-size: 1em;
+  margin: -5px 0 0; /* Top margin= -5px, Right and Left margin= 0, Bottom margin= 0 */
+  font-weight:400; /*The font-weight property sets how thick or thin chracters in text should be displayed.*/
+  text-align: center;
+
+  
+  
+  
+  
+}
+
+
+h3 {
+
+  font-size: 0.75em;
+  margin: 5px 0 0; /* Top margin= -5px, Right and Left margin= 0, Bottom margin= 0 */
+  font-weight: 200; /*The thickness of the text here is less than normal. 400 is the same as normal, and 700 is the same as bold.*/
+  
+  
+}
+
+
+
+
+
+
+
+/*************
+Navigation
+**************/
+
+
+nav {
+
+  text-align:center; /*By giving the value center it will move the navigation text to the center.*/
+  padding: 10px 0; /*Top and Bottom padding is 10px. Left and right padding is 0*/
+  margin: 20px 0 0; /*Top margin is 20px, Left and Right margin is 0. Bottom margin is 0*/
+  
+}
+
+
+nav ul { /*Here we are targetting unordered list for navigation*/
+
+  list-style: none; /*By setting the value to none there will be no marker is shown on the side of the unordered lists. Think of it like no more bullet points on the side of each list*/
+  margin:0 10px; /* Top and Bottom margin is 0. Left and Right margin is 50px.*/
+  padding: 0; /*O padding is applied for all sides.*/
+  
+  
+}
+
+nav li { /*Here we are targetting the navigation list*/
+
+  display: inline-block; /*By setting the value to inline-block this will cause the navigation to position right next to each other or horizontally instead of stocking on each other.*/
+  
+}
+
+
+nav a { /*Now we are targetting the anchor element for navigation.*/
+  
+  
+  font-weight:800; /*By setting the value to 800 this cause the font size on our navigation to be bold.*/
+  
+  padding: 15px 10px; /*By giving them a padding will seperate or give out space for each navigation. Top and Bottom margin is 15px. 10px for Left and Right padding.*/
+  
+}
+
+
+
+
+/****************
+Page: Portfolio
+****************/
+
+
+
+
+#gallery {  /*Targetting id class called gallery for design.*/
+
+  margin:0;
+  padding:0;
+  list-style:none; /*By giving a none value for our list style, no image will be displayed. Instead, the list-style property will define what type of list marker will be rendered. This is default. In addition  this will get rid of the bullet points as well.*/ 
+  box-shadow: 10px 10px 5px grey;
+}
+
+
+#gallery li {
+
+  float: left;
+  width:45%;
+  margin: 2.5%;
+/*  background-color: #fff;*/
+  background-color:  #737373;
+  box-shadow: 10px 5px 10px grey;
+}
+
+
+#gallery li a p{  /*Here we are targetting the list element, the anchor/link of the gallery and its paragraph. */
+
+  
+  
+  padding: 5%; /*this padding value will determine how far we want from the content*/
+  
+  font-size: 1em; /*This declaration will determine the size of our text inside the gallery or the paragraph text.*/
+  
+  color: #404040; /*This will change the color of our link or the paragraph text.*/
+  
+  box-shadow: 5px 5px 5px grey;
+  
+}
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+/***********
+Colors
+************/
+
+
+/** Site Body or Whole background color**/
+
+body {
+
+  background-color:	#D0D3D4; /*This declaration will change the color of our background.*/
+  color: #737373; /*This will change the color of our text in the body part.*/
+
+}
+
+
+/** Header Color **/
+
+
+header {
+
+  background-color: 	#D0D3D4; /*This color will only applies to the header of the page.*/
+  border-color: #737373; /*This will change the color of our border line. You can set the color to different types for each side. Can see it now because our header is taking all the space.*/
+  
+}
+
+/*** navigation background on mobile ***/
+
+nav {
+
+  background: #737373; /*This only works for mobile size version. When you resize the website to mobile size the background of navigation will change depending on the value that is assigned.*/
+}
+
+/** Logo Text **/
+
+h1, h2 {
+
+  color: #737373; /*Here we are targetting both h1 and h2. We want to change the text color according to the value we want.*/
+}
+
+
+/** Links **/
+
+a {
+
+  color: #00b33c; /*This will chage all the color of anchor element or links to skyblue.*/
+}
+
+
+/** Navigation Link **/
+
+nav a, nav a:visited {
+
+  color: #000; /*This will change the color of the text of our navigation.*/
+}
+
+/** Selected navigation Link **/
+
+
+nav a.selected, nav a:hover {
+
+  color: #000; /*What this does is it change the color of the navigation when you hover into it or selected. So it tells the user which page they are currently on.*/
+  
+  
+  text-shadow: 5px 5px 5px grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

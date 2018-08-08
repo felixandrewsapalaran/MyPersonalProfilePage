@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  
+  <head>
+    
+    <meta charset="utf-8">
+    
+    <title>My Personal Portfolio</title> <!--This title is going to appoear on the page bar.-->
+    
+    
+     <meta name="viewport"  content="width=device-width, initial-scale=1.0"> <!--What we did here is we added a meta tag and we added a attribute called name and set the value to viewport. Right after that we added another attribute called content and we set the value to width=device-width. So in this content value here the width property is what controls the size of the device viewport. And with the value device-width the device's browser will zoom in to fit the screen as much as it needs to, according to the device's width.-->
+    
+     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet"> <!--By adding this link it will directly use the font style we got from that website.-->
+    
+     <link rel="stylesheet" href="main.css"> <!--Here we are linking our main.css file so that we can design our structure.-->
+    
+    
+   
+  
+  </head>
+  
+  
+  <body>
+  
+    <header>
+      
+      
+      <a href="index.html" id="logo"> <!--We also added a id called logo in our anchor element.-->
+        
+        <h1>Front End Web Developer</h1>
+        
+        <h2>Felix Andrew Sapalaran</h2>
+        
+        <h2>01000011 01010011</h2>
+        
+     
+      </a>
+      
+      
+      <nav>   <!--Here we are opening a tag navigation on our header.-->
+        
+      <ul>  <!--Undordered list contains with the list items. Here we will create another unordered list so that we can put some navigation buttons on top-->
+        
+        
+        
+       <li>
+         
+         <a href="index.html" class="selected">Home</a> <!--I added a anchor element to index.html so that when you click Portfolio button this will direct you to our index.html file. Also I added a class called "selected" for css design. "class=selected" this indicates to site visitors which page they are currently on. "Selected" is called predefined class. In addition this also indicates which page are we currently on.-->  
+
+        </li>
+       
+      </ul>
+      </nav>
+    
+    </header>
+    
+    
+    <div id="wrapper"> <!--Here we added a div element or short for divider. This will divided new content areas in. Here we also added a id called wrapper for the div which will use on our css for styling. -->
+      
+        <section>
+
+          
+          <h2>My Project Folders</h2>          
+          <ul id="gallery"> <!--This unordered list is the container of the list items/ This unordered list is where we put our list items.We have created a id for the undordered list. We can use this id to create some design on our css file.-->
+          
+            <li> <!--This list element is where we put our image or other stuff we want to display-->
+              
+              <a href="images/webdesign.gif"> <!--Here we have created a link to the image. In this case we are able to open the image when you click it.--> 
+              
+              <img src="images/webdesign.gif" alt="Web Design"> <!--Display 1 placed here. src means source, img is the folder on where our image is located, and blank.jpg is the name if our image.-->
+              
+              <p>Web Development</p> <!--Text input or title of the image-->
+              
+              </a>
+            
+            
+            </li>
+            
+            
+            <li>
+            
+              <a href="images/java.gif">
+              
+              <img src="images/java.gif" alt="Java"> <!--Display number 2-->
+              
+              <p>Java</p>
+                
+              </a>
+              
+            </li>
+            
+            <li>
+              
+              <a href="images/ios.gif"> 
+            
+              <img src="images/ios.gif" alt="iOS"> <!--Display number 3-->
+              
+              <p>iOS Development</p>
+                
+              </a>
+            
+            </li>
+            
+            <li>
+              <a href="images/games.gif"> 
+            
+              <img src="images/games.gif" alt="Game Development"> <!--Display number 4-->
+              
+              <p>Game Development</p>
+                
+              </a>
+            
+            </li>
+            
+            <li>
+              
+              <a href="images/nodejs.gif"> 
+            
+              <img src="images/nodejs.gif" alt="Android"> <!--Display number 5-->
+              
+              <p>Full Stack JavaScript</p>
+            
+              </a>
+              
+            </li>
+            
+            <li>
+              
+              <a href="images/rutgers.gif"> 
+            
+              <img src="images/rutgers.gif" alt="Rutgers"> <!--Display number 6-->
+              
+              <p>School Projects</p>
+            
+              </a>
+              
+            </li>
+            
+            
+          </ul> <!--End of the list container-->
+        
+        
+        
+       </section>
+      
+       
+      </div>
+  
+  </body>
+
+
+</html>
